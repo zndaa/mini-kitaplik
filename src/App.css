@@ -1,0 +1,136 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fcfcfc;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #1a1a2e;
+}
+
+.filtre-alani {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.arama-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.kategori-select {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.icerik-alani {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.kitap-listesi {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kitap-karti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.kitap-bilgi h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+}
+
+.kitap-bilgi p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.favori-btn {
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.favori-btn.secili {
+  background-color: #fef08a;
+  border-color: #fde047;
+  color: #854d0e;
+}
+
+.favori-paneli {
+  width: 260px;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.favori-paneli h2 {
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.favori-paneli ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.favori-paneli li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.favori-paneli li span {
+  margin-right: 8px;
+}
+
+.favori-paneli button {
+  padding: 2px 8px;
+  font-size: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+.bos-mesaj {
+  font-size: 13px;
+  color: #9ca3af;
+}
